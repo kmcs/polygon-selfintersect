@@ -1,0 +1,31 @@
+{
+  "name": "polygon-selfintersect",
+  "version": "1.0.0",
+  "description": "Detect if a polygon has self intersecting lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmcs/polygon-selfintersect.git"
+  },
+  "keywords": [
+    "2d",
+    "polygon",
+    "intersect",
+    "self-intersection"
+  ],
+  "author": "Timo Kiefer <timo.kiefer@kmcs.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmcs/polygon-selfintersect/issues"
+  },
+  "homepage": "https://github.com/kmcs/polygon-selfintersect",
+  "devDependencies": {
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "line-intersect": "^1.0.0"
+  }
+}

@@ -17,7 +17,7 @@ var myPolygon = [[1, 1], [1, 3], [3, 3], [3, 1], [0, 4], [1, 1]];
 
 if (polygonSelfIntersect.findSelfIntersections(myPolygon)) {
   console.log("Found the following self intersection lines:");
-  console.log(polygonSelfIntersect.getSelfIntersectionLines());
+  console.log(polygonSelfIntersect.getSelfIntersectLines());
 } else {
   console.log("No self intersection found.");
 }
